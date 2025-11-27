@@ -59,3 +59,5 @@ htmlcov/
 # Node modules (프론트엔드가 있다면)
 node_modules/
 npm-debug.log
+# Models
+*.gguf
