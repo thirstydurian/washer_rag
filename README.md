@@ -24,13 +24,13 @@
 
 ```
 1. PDF
-   ↓ (pdfplumber)
+   ↓ (pdfplumber) : pdftotxt.py
 2. extracted_text_pdfplumber.txt
    ↓ (chunking.py)
 3. chunks.pkl (텍스트 청크들)
    ↓ (build_index.py)
 4. washing_machine.index (FAISS 벡터 인덱스)
-   ↓ (app_hf.py)
+   ↓ (app.py)
 5. 웹 UI에서 검색 및 답변 생성
 ```
 
@@ -86,7 +86,7 @@ cd backend
 pip install -r requirements.txt
 
 # 서버 실행
-python app_hf.py
+python app.py
 ```
 
 **개별 설치 (requirements.txt 없을 경우):**
